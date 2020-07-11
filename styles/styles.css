@@ -1,0 +1,490 @@
+body {
+    margin: 0px;
+    padding: 0;
+    width: 100vw;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    max-height: 500px;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Nav Bar*/
+#body-header nav{
+    position: relative;
+    top: 20px;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*My Name*/
+#body-header #name{
+    text-align: center;
+    margin-top: 12%;
+}
+
+#name h1{
+    color: white;
+    font-family: sans-serif; 
+    font-size: xxx-large;
+}
+
+.horizontal-list li{
+    cursor: pointer;
+}
+
+/*social icons*/
+.icons{
+    height: 17px;
+    width: 17px;
+}
+
+.horizontal-list-social{
+    list-style: none;
+    text-align: center;
+    margin-top: -1%;
+    margin-left: -4%
+}
+
+.horizontal-list-social li{
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0 1%;
+    transition: box-shadow 0.5s;
+}
+.horizontal-list-social li a i{
+    margin-top: 7px;
+}
+
+.horizontal-list-social li:hover{
+        box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.fa{
+    color: red;
+}
+
+#social-icons i{
+    color: white;
+
+}
+
+/*about section*/
+#about{
+    margin-top: 9%;
+    display: block;
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px white solid; 
+    box-shadow: 0px 0px 6px 1px lightgrey;
+    opacity: 1;
+}
+
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: 7vh;
+}
+
+#about-intro p{
+    font-family: sans-serif;
+    text-align: justify;
+    color: #808080;
+    letter-spacing: 1px;
+    font-size: 17.5px;
+    line-height: 23px;
+    font-style: italic;
+}
+
+#about #about-intro{
+    margin: 0 13%;
+}
+
+.make-blue{
+    color: #2857A4;
+}
+
+/*change colors for sections in main*/
+main section:nth-child(2n+1){
+    background-color: white;
+}
+main section:nth-child(2n){
+    background-color: #EFEFEF;
+}
+
+/*skills section*/
+#skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-icon h1{
+    font-size: 40px;
+    color: #2857A4;
+}
+
+.skills-icon{
+    padding: 2% 0 3%;
+    color: blue;
+    width: 100vw;
+    text-align: center;
+}
+
+#tabs{
+    display: flex; 
+    width: 50vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.tab-content{
+    margin-top: 30px;
+    background-color: #D3D3D3;
+    width: 30%;
+    height: 38px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: inset 1px 2px 8px 0px rgba(0,0,0,0.47);
+}
+
+.tab-content div{
+    padding: 2px 0;
+    box-shadow: 2px 0px 7px 0px rgba(0,0,0,0.47);
+}
+.tab-content div p{
+    margin-left: 8%;
+    margin-top: 2%;
+    font-size: 20px;
+    color: white;
+}
+
+#cpp{
+    width: 60%;
+    background-color: #2857A4;
+}
+
+#html{
+    width: 80%;
+    background-color: #EC4D1C;
+}
+
+#css{
+    width: 90%;
+    background-color: #93738C;
+}
+
+#js{
+    width: 70%;
+    background-color: #0B8176;
+}
+
+#node{
+    width: 40%;
+    background-color: #2857A4;
+}
+
+#mongo{
+    width: 60%;
+    background-color: #EC4D1C;
+}
+
+/*portfolio*/
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#icon-head h1 {
+    font-size: 40px;
+    color: #2857A4;
+}
+
+#icon-head{
+    padding: 2% 0 3%;
+    color: blue;
+    width: 100vw;
+    text-align: center;
+}
+
+#port-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85vw;
+}
+
+.project1{
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png);
+    height: 280px;
+    width: 320px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.project2{
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png);
+    height: 280px;
+    width: 320px;
+    background-size: cover;
+}
+
+/*contact section*/
+#contact{
+    background-image: linear-gradient(to top right, #2857a4,#403066 50%);
+    padding-bottom: 6%;
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact-tab h1{
+    color: white;
+    font-size: 35px;
+}
+#contact-content{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 20% ;
+
+}
+#information input,textarea{
+    border:none;
+    border-bottom:2px solid white; 
+    background-color: transparent;
+    width: 35vw;
+    margin-top:40px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+#information button{
+    background-color: transparent;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    border: 2px solid white;
+    font-weight:bold;
+    margin-left: 30%;
+    margin-top:8%; 
+    cursor: pointer;
+}
+
+#information button:hover{
+    border-color: black;
+    color: black;
+}
+
+#information{
+    margin-left:-22%;
+}
+#Address .notBold{
+    color: lightgrey;
+    font-size: 15px;
+}
+#Address .Bold{
+    font-weight:bold; 
+    color: white;
+    font-size: 20px;
+}
+#Address{
+    margin-left:15%;
+}
+#social-details{
+    display:flex;
+    width:30%;
+    justify-content: space-between;
+    margin-top:3%;
+}
+#social-details i{
+    color: white;
+    font-size: 25px;
+    margin-top: 4px;
+}
+
+.shadow{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: box-shadow 0.5s;
+}
+
+#social-details a{
+    padding: 10px;
+}
+
+.shadow:hover{
+    box-shadow:0 0 6px 4px rgba(230,196,196,0.3);
+}
+
+#go-top{
+    position: relative;
+    margin-top: -5%;
+    left: 40%;
+    cursor: pointer;
+}
+
+#go-top a i, p{
+    color: grey;
+}
+
+/*Work Experience & Education*/
+#experience, #education{
+    width: 100vw;
+    padding-bottom: 5%;
+}
+
+.section-main{
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    align-items: center;
+    margin: 0 15%;
+    position: relative;
+}
+
+.section-heading{
+    font-size: 40px;
+    color: #2857A4;
+    margin-bottom: 5%;
+}
+
+.timeline-box{
+    width: 43%;
+}
+
+.timeline-box:nth-child(2n){
+    margin-left: 53%;
+}
+
+.timeline-box-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeline-title .desig, .company{
+    text-align: right;
+}
+
+.timeline-box-content p{
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    word-spacing: 2px;
+    letter-spacing: 0.3px;
+    line-height: 20px;
+}
+
+.desig{
+    color: #2857A4;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin: 0 0 1%;
+}
+
+.company{
+    color: #EB822D;
+    font-family: sans-serif;
+    font-size: 19px;
+    margin: 0 0;
+}
+
+.date{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.timeline-box-content{
+    margin-top: -3%;
+}
+
+.timeline-icon-1 i{
+    color: black;
+}
+
+.timeline-icon-2 i{
+    color: #795548;
+}
+
+.timeline-divider{
+    height: 57%;
+    border-left: 1px dashed #2196f3;
+    left: 48%;
+    top: 22%;
+    position: absolute;
+}
+
+.timeline-traveller{
+    position: absolute;
+    height: 100%;
+    right: -17px;
+}
+
+.timeline-traveller i{
+    color: #2857A4; 
+    position: sticky;
+    top: 50%;
+}
+
+.buildings{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    right: -7px;
+}
+
+.buildings i{
+    color: #EB822D;
+}
